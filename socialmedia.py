@@ -21,7 +21,6 @@ qr.make(fit=True)
 
 img = qr.make_image(fill_color="black", back_color="white")
 
-# Save the image
 img.save("social_media_qr.png")
 
 print("QR code generated and saved as 'social_media_qr.png'")
