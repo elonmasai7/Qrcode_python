@@ -19,7 +19,6 @@ qr = qrcode.QRCode(
 qr.add_data(all_links)
 qr.make(fit=True)
 
-# Create an image from the QR Code instance
 img = qr.make_image(fill_color="black", back_color="white")
 
 # Save the image
