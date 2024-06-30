@@ -10,7 +10,6 @@ social_media_links = {
 
 all_links = "\n".join([f"{platform}: {url}" for platform, url in social_media_links.items()])
 
-# Generate the QR code
 qr = qrcode.QRCode(
     version=1,
     error_correction=qrcode.constants.ERROR_CORRECT_L,
